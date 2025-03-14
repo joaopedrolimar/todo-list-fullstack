@@ -9,23 +9,6 @@ Banco de Dados: SQLite
 Gerenciamento de Estado: useState + useEffect
 Comunicação: API RESTful
 
-todo-list-fullstack/
-│── backend/               # Servidor Node.js
-│   ├── database.js        # Configuração do SQLite
-│   ├── index.js           # Servidor Express
-│   ├── migrate.js         # Script para criar o banco
-│   ├── routes/            # Rotas da API
-│   │   ├── tasks.js       # Rotas CRUD das tarefas
-│   ├── package.json       # Dependências do backend
-│── frontend/              # Aplicação React
-│   ├── src/               # Código-fonte do frontend
-│   │   ├── components/    # Componentes da interface
-│   │   │   ├── TaskList.jsx
-│   │   │   ├── TaskForm.jsx
-│   │   ├── App.jsx        # Componente principal
-│   ├── public/            # Arquivos estáticos
-│   ├── package.json       # Dependências do frontend
-│── README.md              # Documentação do projeto
 
 Como Executar o Projeto:
 Clonar o Repositório.
